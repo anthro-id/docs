@@ -1,0 +1,30 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Documentation",
+  "colors": {
+    "primary": "#0D9373"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Trust Footprint",
+        "pages": [
+          "trust-footprint/intro",
+          {
+            "group": "Pages",
+            "pages": [
+              "trust-footprint/pages/compliance",
+              "trust-footprint/pages/data-processing",
+              "trust-footprint/pages/data-security",
+              "trust-footprint/pages/infrastructures",
+              "trust-footprint/pages/legal",
+              "trust-footprint/pages/product-security",
+              "trust-footprint/pages/self-assessment"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
